@@ -5,7 +5,7 @@ import google.generativeai as genai
 from PIL import Image
 
 
-genai.configure(api_key="AIzaSyBQwzITbmVvfh0lh3N6aKr_O3uHOfboooI")
+genai.configure(api_key="your_api_key") #Preferably use the API of Gemini AI
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 cap = cv2.VideoCapture(0)
